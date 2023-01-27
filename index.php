@@ -16,7 +16,7 @@
             <label for="matricule">Matricule</label><sup>*</sup><br>
             <input type="text" name="matricule" id="matricule" class="inputs" placeholder="Entrez votre matricule"><br>
             <label for="password">Mot de passe</label><sup>*</sup><br>
-            <input type="text" name="password" id="password" class="inputs" placeholder="Entrez votre mot de passe"><br>
+            <input type="password" name="password" id="password" class="inputs" placeholder="Entrez votre mot de passe"><br>
             <div id="text-info">
                 <div id="invalid-field"></div>
                 <div id="fgt-pwd">Mot de passe oublié ?</div>

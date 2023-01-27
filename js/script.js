@@ -31,7 +31,5 @@ function verifChampVide() {
 formIndex.addEventListener('submit', (e) => {
     if(verifChampVide()){
         e.preventDefault();
-    }else{
-        alert('Veuillez remplir toutes vos informations dans le formulaire suivant pour obtenir votre certificat de scolarité!');
     }
 })
