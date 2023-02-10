@@ -1,8 +1,8 @@
 <?php
 session_start();
 require_once('dbconnexion.php');
-$matricule=isset($_POST['matricule'])?$_POST['matricule']:"";
-$password=isset($_POST['password'])?$_POST['password']:"";
+@$matricule=isset($_POST['matricule'])?$_POST['matricule']:"";
+@$password=isset($_POST['password'])?$_POST['password']:"";
 $requete="select * from users where matricule='$matricule'and motdepasse='$password'" ;
 $resultat=$pdo->query($requete);
 if ($user=$resultat->fetch()){

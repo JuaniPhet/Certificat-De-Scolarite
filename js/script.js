@@ -9,14 +9,13 @@ function verifChampVide() {
     let result = false;
 
     if(matriculeIn.value.trim() == "") {
-        invalidField.innerHTML = "Veuillez remplir tout les champs !";
+        matriculeIn.style.borderColor.valueOf('red');
         boolMatricule = true;
     }else {
         invalidField.innerHTML = "";
     }
 
     if(passwordIn.value.trim() == "") {
-        invalidField.innerHTML = "Veuillez remplir tout les champs !";
         boolPassword = true;
     }else {
         invalidField.innerHTML = "";
@@ -31,5 +30,6 @@ function verifChampVide() {
 formIndex.addEventListener('submit', (e) => {
     if(verifChampVide()){
         e.preventDefault();
+        invalidField.innerHTML = "Veuillez remplir tout les champs !";
     }
 })

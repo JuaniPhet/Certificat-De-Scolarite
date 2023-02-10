@@ -11,7 +11,7 @@
 
 <body>
     <div id="container-index">
-        <h3>AUTHENTIFICATION</h3>
+        <h3>Connexion</h3>
         <form action="authentification.php" method="post" id="form-index">
             <label for="matricule">Matricule</label><sup>*</sup><br>
             <input type="text" name="matricule" id="matricule" class="inputs" placeholder="Entrez votre matricule"><br>
@@ -19,12 +19,11 @@
             <input type="password" name="password" id="password" class="inputs" placeholder="Entrez votre mot de passe"><br>
             <div id="text-info">
                 <div id="invalid-field"></div>
-                <div id="fgt-pwd">Mot de passe oublié ?</div>
             </div>
             <div id="btn">
                 <input type="submit" value="Se Connecter" class="btns" id="connect-btn">
-                <input type="reset" value="Annuler" class="btns" id="cancel-btn">
             </div>
+            <div id="fgt-pwd"><a href="recupPassword.php">Mot de passe oublié ?</a></div>
         </form>
     </div>
     <script src="js\script.js"></script>

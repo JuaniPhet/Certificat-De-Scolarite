@@ -14,16 +14,18 @@ body {
 }
 
 #container-index {
-    border: 2px solid #707070;
+    /* border: 2px solid #707070;
     background-color: #FBFCFC;
     border-radius: 20px;
     height: 360px;
-    width: 400px;
+    width: 400px; */
+    /* display: block;
+    justify-content: center; */
 }
 
 h3 {
     text-align: center;
-    font-size: 2em;
+    /* font-size: 2em; */
     font-weight: bold;
     margin-top: 7px;
     margin-bottom: 10px;
@@ -48,13 +50,13 @@ sup {
 .inputs {
     margin-left: 35px;
     margin-bottom: 8px;
-    width: 310px;
+    width: 350px;
     height: 50px;
     border: 1px solid #707070;
     border-radius: 50px;
     background-color: #F4F6F7;
     font-size: 1em;
-    color: #9C9C9C;
+    color: #616a6b;
     padding-left: 12px;
 }
 
@@ -62,7 +64,7 @@ sup {
     text-align: center;    
     font-size: 1em;
     color: #9C9C9C;
-    margin-top: 5px;
+    margin-top: 30px;
 }
 
 #invalid-field {
@@ -81,13 +83,13 @@ sup {
 #btn {
     display: flex;
     margin-left: 35px;
-    width: 322px;
+    width: 362px;
     justify-content: space-between;
     margin-top: 10px;
 }
 
 .btns {
-    width: 322px;
+    width: 362px;
     height: 50px;
     color: #ffffff;
     font-size: 1.1em;

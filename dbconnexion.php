@@ -10,7 +10,7 @@
         //On se connecte à la BDD
         $pdo = new PDO("mysql:host=$serveur;dbname=$dbname",$user,$pass);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        echo 'bd connected';
+        // echo 'bd connected';
     }
     catch(PDOException $e){
         echo 'Impossible de traiter les données. Erreur : '.$e->getMessage();
@@ -24,7 +24,7 @@ $password = "";
 $options = [];
 try {
 $connection = new PDO($dsn, $username, $password, $options);
-echo 'connexion success';
+// echo 'connexion success';
 } catch(PDOException $e) {
 
 }
