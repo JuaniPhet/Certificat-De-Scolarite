@@ -23,10 +23,10 @@
             <div id="btn">
                 <input type="submit" value="Se Connecter" class="btns" id="connect-btn">
             </div>
-            <div id="fgt-pwd"><a href="recupPassword.php">Mot de passe oublié ?</a></div>
+            <div id="fgt-pwd"><a href="form_recup_password.php">Mot de passe oublié ?</a></div>
         </form>
     </div>
-    <script src="js\script.js"></script>
+    <script src="js\script_index"></script>
 </body>
 
 </html>
