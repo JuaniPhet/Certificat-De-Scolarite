@@ -26,7 +26,7 @@
             <div id="fgt-pwd"><a href="form_recup_password.php">Mot de passe oublié ?</a></div>
         </form>
     </div>
-    <script src="js\script_index"></script>
+    <script src="js\script.js"></script>
 </body>
 
 </html>

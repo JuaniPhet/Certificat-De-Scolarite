@@ -11,13 +11,15 @@ body {
     display: grid;
     place-content: center;
     height: 100vh;
+    background-color: aliceblue;
 }
 
 #container-index {
-    border: 2px solid #707070;
+    /* border: 2px solid #707070; */
+    box-shadow: rgb(196, 195, 195) 0px 0px 50px;
     background-color: #FBFCFC;
     border-radius: 20px;
-    height: 360px;
+    height: 410px;
     width: 400px;
 }
 
@@ -31,6 +33,7 @@ h3 {
 
 #form-index {
     margin: 5px;
+    margin-top: 40px;
 }
 
 label {
