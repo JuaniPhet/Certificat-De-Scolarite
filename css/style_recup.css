@@ -14,14 +14,15 @@ body {
     background-color: aliceblue;
 }
 
-#container-index {
-    /* border: 2px solid #707070;
+#container-recup {
+    /* border: 2px solid #707070; */
+    box-shadow: 0 0 50px rgb(196, 195, 195);
     background-color: #FBFCFC;
     border-radius: 20px;
-    height: 360px;
-    width: 400px; */
-    /* display: block;
-    justify-content: center; */
+    height: 450px;
+    width: 420px;
+    display: block;
+    justify-content: center;
 }
 
 h3 {
@@ -33,7 +34,8 @@ h3 {
 }
 
 #form-recup {
-    margin: 5px;
+    /* margin: 5px; */
+    margin-top: 60px;
 }
 
 label {
@@ -68,11 +70,11 @@ sup {
     margin-top: 30px;
 }
 
-#invalid-field {
+#invalid-field-recup {
     text-align: start;
     font-size: 1em;
     color: #E74C3C;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 #text-info {
